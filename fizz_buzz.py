@@ -1,5 +1,6 @@
 def fizz_buzz():
-    for i in range(1, 101):
+    n = int(input('Define n value: '))
+    for i in range(1, n + 1):
         if i % 3 == 0 and i % 5 == 0:
             print('FizzBuzz')
         elif i % 3 == 0 and not i % 5 == 0:
